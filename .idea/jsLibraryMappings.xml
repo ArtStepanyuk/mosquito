@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="JavaScriptLibraryMappings">
-    <file url="file://$PROJECT_DIR$/mosquito-server" libraries="{mosquito/mosquito-server/node_modules}" />
-    <file url="file://$PROJECT_DIR$/mosquito-web" libraries="{mosquito/mosquito-web/node_modules}" />
-    <file url="PROJECT" libraries="{angular, mosquito/mosquito-server/node_modules, mosquito/mosquito-web/node_modules}" />
-    <includedPredefinedLibrary name="ECMAScript 6" />
-  </component>
-</project>
