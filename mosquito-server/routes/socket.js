@@ -17,9 +17,9 @@ module.exports = function(io) {
   client.on('connect', (message) => client.subscribe('getmessage', message));
   client.on('message', (topic, message) => {
     io.emit('notification', {
-      'id': moment().format('x'), // unix timestamp
+      'postDate': moment(),
       'topic': String(topic),
-      'message': String(message)
+      'text': String(message)
     });
   });
 };
