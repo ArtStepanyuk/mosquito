@@ -2,10 +2,10 @@
 
 ```
 cd mosquito-web
-npm i && and bower install
-
-cd .. && cd mosquito-server
-npm i
+yarn install && bower install
+cd .. 
+cd mosquito-server
+yarn install
 npm start
 npm start dev for debugging
 ```
